@@ -2,17 +2,13 @@ body{
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-.titulo{                       /*configura o estilo do título*/
-	background: #fff;
-    font-size: 50px;
-    color: #57575a;
-    margin: 15px 0px 0px 0px;
-	font-weight: bold;
-	box-sizing: border-box;
-	border-bottom: solid 1.5px #57575a;
+.header{
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
 }
 
-.titulo h1{                     /*configura o posicionamento e a fonte do título*/
+.titulo h1{
 	position: relative;
 	margin-left: 40px;
 	/* text-align: center; */
@@ -22,25 +18,21 @@ body{
 }
 
 nav ul{
-	text-align: center;
-	width: auto;
-	padding: 0 auto;
-	margin: 0 auto;
-	box-sizing: border-box;
+	text-align: left;
+	width: 100%;
+	padding: 20px 0px 0px 0px;
+	margin: auto;
 }
 
-
-nav li{                         /*configura o estilo do menu de navegação*/
+nav li{
 	/* text-transform: uppercase; */
-	font-weight: bold;
-	font-size: 28px;
-	padding: 0px 60px 0px 0px;
-	display: inline;
+	font-weight: lighter;
+	font-size: 22px;
+	display: ;
 	box-sizing: border-box;
 }
 
-
-nav li a{                      /*configura o posicionamento do menu de navegação*/
+nav li a{
 	color: #57575a;
 	position: static;
 	text-decoration: none;
@@ -51,34 +43,9 @@ nav ul a:hover{
 	color: #216a86;
 }
 
-
-/*Final do cabeçalho padrão*/
-/*-----------------------------------------------------------------------------------------------*/
-
-main{                         /*configura o tamanho do label e input na tela*/
-	width: 100%;
+main{
+	width: 80%;
 }
-
-form label, form legend{
-	display: block;
-	font-size: 20px;
-	margin: 0px 0px 7px 0px;
-}
-
-.formulario, form legend{
-	display: block;
-	margin: 5px 0 10px;
-	padding: 7px 25px;
-	width: 90%;
-}
-
-form legend{
-	display: inline-block;
-	font-size: 20px;
-	padding: 7px 0px;
-}
-
-/*--------------------ESTILO PARA PRODUTOS-------------------------*/
 
 .titulo-principal{
 	font-weight: bold;
@@ -89,16 +56,14 @@ form legend{
 
 .produtos{
 	display: flex;
-	margin: 40px 10px;
-	flex-wrap: wrap;
 	justify-content: space-around;
 
 }
 
 .card{
-	float: right;
-	border: solid rgb(158, 153, 153) 1px;
-	box-shadow: 5px 2px 8px rgb(82, 75, 75);
+	/* float: right; */
+	/* border: solid rgb(158, 153, 153) 1px; */
+	/* box-shadow: 5px 2px 8px rgb(82, 75, 75); */
 	border-radius: 5px;
 	width: 400px;
 	height: 200px;
@@ -107,16 +72,6 @@ form legend{
 	color: rgb(86, 87, 88);
 	margin: 20px;
 	overflow: hidden;
-}
-
-.card:hover{
-	border: solid rgb(0, 0, 0) 1px;
-	box-shadow: none;
-}
-
-.card img{
-	width: 100%;
-	border-radius: 5px;
 }
 
 .card h2{
@@ -166,14 +121,11 @@ form legend{
 	box-shadow: 5px 2px 8px rgb(204, 203, 203);
 }
 
-/*--------------------RODAPÉ------------------------*/
-
 .footer{
-	display: block;
-	background: #FAF554;
-	padding: 15px 280px;
-	border-top: solid 1.5px #57575a;
-	
+	display: flex;
+	border-top: #57575a solid 1px;
+	padding: 15px 0px 0px 10px;
+	justify-content: space-between;
 }
 .infos-principais-rodape{
 	display: inline-block;
@@ -203,43 +155,12 @@ form legend{
 	max-width: 180px;
 	box-shadow: #333 2px 2px 2px;
 }
-.destaque li{
-	text-decoration: none;
-	background-color: #33C500;
-	color: #FE2E93;
-
+.logo{
+	width: 200px;
 }
-.rede-social{
-	display: inline-block;
-	float: right;
-	color: #FE2E93;
-	font-size: 25px;
-	text-align: center;
-
+.logo-img{
+	width: 100%;
 }
-.rede-social a{
-	text-decoration: none;
-	font-size: 25px;
-	max-width: 100px;
-}
-.rede-social li{
-	margin: 10px 10px;
-}
-.rede-social img{
-	width: 30px;
-	padding: 0 10px;
-}
-.redes-sociais p{
-	display: grid;
-	float: right;
-	text-transform: uppercase;
-	padding: 2px 50px 2px 0;
-	margin: 0 2px 0;
-	color: #FE2E93;
-	justify-content: flex-start;
-
-}
-
 .logo-rede-social{
 	display: flex;
 	flex-direction: row;
