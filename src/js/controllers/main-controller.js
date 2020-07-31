@@ -2,17 +2,12 @@
 angular.module('pdi').controller('MainController', function($scope) {
     
     var self = $scope;
-    self.home = 'Tela de quem sou eu';
-    self.pontosFortes = 'Pontos Fortes';
-    self.pontosFracos = 'Pontos Fracos';
-    self.objetivos = 'Objetivos';
-    self.proximosPassos = 'Próximos passos';
 
     self.dados = {
         "pdi" : {
             "objetivos" : {
                 "no_itau" : [
-                    "desenvolver mais nos projetos",
+                    "Desenvolver mais nos projetos",
                     "Conseguir fazer bem meu trabalho com autonomia",
                     "Contribuir mais e ajudar mais as pessoas",
                     "Me tornar analista pleno"
@@ -22,8 +17,8 @@ angular.module('pdi').controller('MainController', function($scope) {
                     "Me tornar um desenvolvedor front-end com foco em Angular"
                 ],
                 "academicos" : [
-                    "Concluir formação",
-                    "Pós?"
+                    "Concluir a respectiva formação",
+                    "Oportunidades de pós-graduação"
                 ],
                 "pessoais" : [
                     "Investir mais dinheiro",
@@ -35,7 +30,7 @@ angular.module('pdi').controller('MainController', function($scope) {
                 "Ótima relação interpessoal",
                 "Comunicação com a squad",
                 "Maturidade intelectual",
-                "Comprometimento"
+                "Comprometimento e responsabilidade"
             ],
             "pontos_fracos" : [
                 "Insegurança nos códigos",
