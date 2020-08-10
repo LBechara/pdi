@@ -3,23 +3,23 @@ angular.module('pdi', ['ngAnimate', 'ngRoute'])
 
     $routeProvider.
     when("/objetivos",{
-        templateUrl : "objetivos.html",
+        templateUrl : "./pages/objetivos.html",
         controller: "MainController"
     }).
     when("/home", {
-        templateUrl: "home.html",
+        templateUrl: "./pages/home.html",
         controller: "MainController"
     }).
     when("/pontosFortes", {
-        templateUrl: "pontosFortes.html",
+        templateUrl: "./pages/pontosFortes.html",
         controller: "MainController"
     }).
     when("/pontosFracos", {
-        templateUrl: "pontosFracos.html",
+        templateUrl: "./pages/pontosFracos.html",
         controller: "MainController"
     }).
     when("/proximosPassos", {
-        templateUrl: "proximosPassos.html",
+        templateUrl: "./pages/proximosPassos.html",
         controller: "MainController"
     }).
     otherwise ({
