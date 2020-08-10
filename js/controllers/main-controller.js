@@ -3,47 +3,51 @@ angular.module('pdi').controller('MainController', function($scope) {
     
     var self = $scope;
 
-    self.dados = {
-        "pdi" : {
-            "objetivos" : {
-                "no_itau" : [
-                    "Desenvolver mais nos projetos",
-                    "Conseguir fazer bem meu trabalho com autonomia",
-                    "Contribuir mais e ajudar mais as pessoas",
-                    "Me tornar analista pleno"
-                ],
-                "em_tecnologia" : [
-                    "Ser mais ativo na comunidade",
-                    "Me tornar um desenvolvedor front-end com foco em Angular"
-                ],
-                "academicos" : [
-                    "Concluir a respectiva formação",
-                    "Oportunidades de pós-graduação"
-                ],
-                "pessoais" : [
-                    "Investir mais dinheiro",
-                    "Comprar um carro melhor",
-                    "Reduzir consumo de carne"
-                ]
-            },
-            "pontos_fortes" : [
-                "Ótima relação interpessoal",
-                "Comunicação com a squad",
-                "Maturidade intelectual",
-                "Comprometimento e responsabilidade"
-            ],
-            "pontos_fracos" : [
-                "Insegurança nos códigos",
-                "Participação na comunidade de tecnologia",
-                "Não focar em uma tecnologia/ferramenta"
-            ],
-            "proximos_passos" : [
-                "Desenvolver mais para pegar mais prática",
-                "Finalizar cursos de typescript e angular",
-                "Criar pdi em angular",
-                "Dar continuidade aos projetos pessoais",
-                "Focar nos estudos acadêmicos"
-            ]
+    self.objetivos = [
+        {
+            titulo : "No Itaú",
+            descricao : "Atuar mais na parte de desenvolvimento nos projetos"
+        },
+        {
+            titulo : "Em desenvolvimento",
+            descricao : "Me tornar um desenvolvedor front-end com foco em Angular"
+        },
+        {
+            titulo : "Acadêmicos",
+            descricao : "Concluir a formaçào em bacharelado em ciência e tecnologia"
         }
-    }
+    ]
+    self.pontosFortes = [
+            "Ótima relação interpessoal",
+            "Maturidade intelectual",
+            "Comprometimento e responsabilidade",
+            "Comunicação e transparência na squad"
+    ]
+    self.pontosFracos = [
+            "Participação na comunidade de tecnologia",
+            "Comunicação ascendente",
+            "Autopromoção",
+    ]
+    self.proximosPassos = [
+        {
+            titulo : "Em 6 meses",
+            descricao : "Atuar mais na parte de desenvolvimento nos projetos"
+        },
+        {
+            titulo : "Em 1 ano",
+            descricao : "Me tornar um desenvolvedor front-end com foco em Angular"
+        },
+        {
+            titulo : "Em 3 anos",
+            descricao : "Concluir a formaçào em bacharelado em ciência e tecnologia"
+        }
+    ]
+
+    self.indefinido = [
+        "Desenvolver mais para pegar mais prática",
+        "Finalizar cursos de typescript e angular",
+        "Criar pdi em angular",
+        "Dar continuidade aos projetos pessoais",
+        "Focar nos estudos acadêmicos"
+    ]
 });

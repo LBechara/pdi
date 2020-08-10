@@ -1,5 +1,6 @@
-body{
+body, *{
 	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(86, 87, 88);
 }
 
 .header{
