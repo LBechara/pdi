@@ -5,6 +5,8 @@ body{
 .nav-link{
 	font-size: 20px;
 	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	
 
 }
 
@@ -57,6 +59,7 @@ main{
 	display: flex;
 	justify-content: flex-start;
 	margin-top: 150px;
+	margin-bottom: 50px;
 
 }
 
@@ -134,12 +137,15 @@ main{
 	box-shadow: 5px 2px 8px rgb(204, 203, 203);
 }
 
-.footer{
+.page-footer{
 	display: flex;
 	border-top: #57575a solid 1px;
-	justify-content: space-between;
-	width: 100%;
+	width: 75%;
 	padding-top: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	position: fixed;
+	bottom: 0;
+	background-color: white;
 }
 .logo{
 	width: 200px;
@@ -149,14 +155,6 @@ main{
 }
 .logo-link {
 	width: 30px;
+	margin: 0 5px;
 }
-.links {
-	display: flex;
-	justify-content: space-around;
-	width: 100px;
-}
-.footer-block {
-	display: flex;
-	justify-content: space-between;
-	width: 75%;
-}
+
