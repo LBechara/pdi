@@ -2,11 +2,18 @@ body, *{
 	font-family: 'Josefin Sans', sans-serif;
 	color: rgb(86, 87, 88);
 }
-
+main{
+	width: 80%;
+}
 .header{
 	display: flex;
 	justify-content: space-between;
 	width: 80%;
+}
+.titulo-conteudo {
+    font-size: 40px;
+	margin-top: 20px;
+	margin-left: 50px;
 }
 
 .titulo h1{
@@ -43,9 +50,6 @@ nav ul a:hover{
 	color: #216a86;
 }
 
-main{
-	width: 80%;
-}
 
 .titulo-principal{
 	font-weight: bold;

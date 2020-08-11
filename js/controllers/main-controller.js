@@ -1,4 +1,3 @@
-
 angular.module('pdi').controller('MainController', function($scope) {
     
     var self = $scope;
@@ -17,16 +16,29 @@ angular.module('pdi').controller('MainController', function($scope) {
             descricao : "Concluir a formaçào em bacharelado em ciência e tecnologia"
         }
     ]
-    self.pontosFortes = [
-            "Ótima relação interpessoal",
-            "Maturidade intelectual",
-            "Comprometimento e responsabilidade",
-            "Comunicação e transparência na squad"
-    ]
-    self.pontosFracos = [
-            "Participação na comunidade de tecnologia",
-            "Comunicação ascendente",
-            "Autopromoção",
+    self.pontosFortes = ["Ótima relação interpessoal", "Maturidade intelectual", "Comprometimento e responsabilidade", "Comunicação e transparência na squad"]
+    self.pontosFracos = ["Participação na comunidade de tecnologia", "Comunicação ascendente", "Autopromoção",]
+    self.oportunidades = ["Crescimento no Itaú", "Esperiência em desenvolvimento"]
+    self.ameaças = ["Indisciplina", "Inconstância"]
+
+
+    self.swot = [ 
+        {
+            titulo : "Pontos Fortes",
+            descricao : self.pontosFortes
+        },
+        {
+            titulo : "Pontos Fracos",
+            descricao : self.pontosFracos
+        },
+        {
+            titulo : "Oportunidades",
+            descricao : self.oportunidades
+        },
+        {
+            titulo : "Ameaças",
+            descricao : self.ameaças
+        },
     ]
     self.proximosPassos = [
         {
