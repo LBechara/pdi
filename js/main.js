@@ -1,4 +1,4 @@
-angular.module('pdi', ['ngAnimate', 'ngRoute'])
+angular.module('pdi', ['ngAnimate', 'ngRoute', 'card'])
 .config(function($routeProvider) {
 
     $routeProvider.
