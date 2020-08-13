@@ -1,1 +1,6 @@
-<h1>banana</h1>
+<div class="card">
+    <h3 class="card__titulo">{{ctrl.titulo}}</h3>
+    <div class="card__list" ng-if="ctrl.descricao.length">
+        <p class="card__list-item" ng-repeat="item in ctrl.descricao">{{item}}</p>
+    </div>
+</div>
