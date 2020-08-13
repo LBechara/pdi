@@ -5,15 +5,15 @@ angular.module('pdi').controller('MainController', function($scope) {
     self.objetivos = [
         {
             titulo : "No Itaú",
-            descricao : "Atuar mais na parte de desenvolvimento nos projetos"
+            descricao : "Atuar mais na parte de desenvolvimento nos projetos."
         },
         {
             titulo : "Em desenvolvimento",
-            descricao : "Me tornar um desenvolvedor front-end com foco em Angular"
+            descricao : "Me tornar um desenvolvedor front-end com foco em aplicações web e mobile."
         },
         {
             titulo : "Acadêmicos",
-            descricao : "Concluir a formaçào em bacharelado em ciência e tecnologia"
+            descricao : "Concluir a formação em bacharelado em ciência e tecnologia."
         }
     ]
 
@@ -24,11 +24,11 @@ angular.module('pdi').controller('MainController', function($scope) {
         },
         {
             titulo : "Pontos Fracos",
-            descricao : ["Participação na comunidade de tecnologia", "Comunicação ascendente", "Autopromoção",]
+            descricao : ["Participação na comunidade de tecnologia", "Comunicação ascendente", "Autopromoção"]
         },
         {
             titulo : "Oportunidades",
-            descricao : ["Crescimento no Itaú", "Esperiência em desenvolvimento"]
+            descricao : ["Crescimento no Itaú", "Experiência em desenvolvimento"]
         },
         {
             titulo : "Ameaças",
@@ -38,23 +38,19 @@ angular.module('pdi').controller('MainController', function($scope) {
     self.proximosPassos = [
         {
             titulo : "Em 6 meses",
-            descricao : "Atuar mais na parte de desenvolvimento nos projetos"
+            descricao : ["Finalizar cursos de TypeScript e Angular até 01/11/2020", "Criar PDI em angular até 01/11/2020"]
         },
         {
             titulo : "Em 1 ano",
-            descricao : "Me tornar um desenvolvedor front-end com foco em Angular"
+            descricao : ["Concluir formação em Bacharel em Ciência e Tecnologia até Julho de 2021", ]
         },
         {
             titulo : "Em 3 anos",
-            descricao : "Concluir a formaçào em bacharelado em ciência e tecnologia"
+            descricao : ["MBA em CyberSecurity ou Mobile Development na FIAP"]
         }
     ]
-
     self.indefinido = [
-        "Desenvolver mais para pegar mais prática",
-        "Finalizar cursos de typescript e angular",
-        "Criar pdi em angular",
-        "Dar continuidade aos projetos pessoais",
-        "Focar nos estudos acadêmicos"
+        "Desenvolver mais para pegar prática",
+        "Dar continuidade aos projetos pessoais"
     ]
 });

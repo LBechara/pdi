@@ -58,6 +58,15 @@ nav ul a:hover{
 	margin-top: 30px;
 }
 
+.container-section {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    flex-direction: row;
+	margin-top: 300px;/* ???????????????????????????????????????? */
+	margin-left: 50px;
+}
+
 .produtos{
 	display: flex;
 	justify-content: flex-start;
@@ -65,86 +74,23 @@ nav ul a:hover{
 
 }
 
-.card {
-	/* float: right; */
-	/* border: solid rgb(158, 153, 153) 1px; */
-	/* box-shadow: 5px 2px 8px rgb(82, 75, 75); */
-	border-radius: 5px;
-	width: 25%;
-	/* height: 200px; */
-	padding: 2px;
-	font-family: 'Josefin Sans', sans-serif;
-	color: rgb(86, 87, 88);
-	margin: 20px;
-	overflow: hidden;
-}
-
-.card33{
-	width: 33%;
-}
-
-.card20{
-	width: 20%;
-}
-
-.card h2 {
-	display: flex;
-	justify-content: left;
-	align-content: flex-start;
-	margin: 15px auto;
-	font-size: 1.2em;
-}
-
-
-.card ul li{
-	font-size: 18px;
-	list-style-type: disc;
-	list-style-position: inside;
-}
-
 .descricao{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	margin: 30px 5px;
-
-}
-
-.descricao h3{
-	font-size: 24px;
-	margin: 3px 0;
-}
-
-.descricao p{
-	font-size: 20px;
-}
-
-.descricao span{
-	font-style: italic;
-
-}
-
-.preco{
-	display: flex;
-	justify-content: center;
-	align-items: baseline;
-	font-weight: bold;
-	color: #FE2E93;
-	font-size: 25px;
-	margin: 40px 90px;
-	padding: 5px;
-	border: solid 1px;
-	border-radius: 10px;
-	background:#FAF554;
-	box-shadow: 5px 2px 8px rgb(204, 203, 203);
 }
 
 .footer{
+	position: fixed;
+	left: 0;
+  	bottom: 0;
 	display: flex;
 	border-top: #57575a solid 1px;
 	justify-content: space-between;
 	width: 100%;
-	padding-top: 10px;
+	padding: 10px 0px;
+	background-color: #ffffff;
 }
 .logo{
 	width: 200px;
@@ -164,4 +110,8 @@ nav ul a:hover{
 	display: flex;
 	justify-content: space-between;
 	width: 80%;
+}
+
+.contato {
+	margin-left: 10px;
 }
