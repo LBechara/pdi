@@ -1,8 +1,8 @@
-angular.module('pdi', ['ngAnimate', 'ngRoute'])
+angular.module('pdi', ['ngAnimate', 'ngRoute', 'card'])
 .config(function($routeProvider) {
 
     $routeProvider.
-    when("/objetivos",{
+    when("/objetivos", {
         templateUrl : "./pages/objetivos.html",
         controller: "MainController"
     }).
@@ -10,12 +10,8 @@ angular.module('pdi', ['ngAnimate', 'ngRoute'])
         templateUrl: "./pages/home.html",
         controller: "MainController"
     }).
-    when("/pontosFortes", {
-        templateUrl: "./pages/pontosFortes.html",
-        controller: "MainController"
-    }).
-    when("/pontosFracos", {
-        templateUrl: "./pages/pontosFracos.html",
+    when("/perfil", {
+        templateUrl: "./pages/perfil.html",
         controller: "MainController"
     }).
     when("/proximosPassos", {

@@ -1,49 +1,56 @@
-
 angular.module('pdi').controller('MainController', function($scope) {
     
     var self = $scope;
 
-    self.dados = {
-        "pdi" : {
-            "objetivos" : {
-                "no_itau" : [
-                    "Desenvolver mais nos projetos",
-                    "Conseguir fazer bem meu trabalho com autonomia",
-                    "Contribuir mais e ajudar mais as pessoas",
-                    "Me tornar analista pleno"
-                ],
-                "em_tecnologia" : [
-                    "Ser mais ativo na comunidade",
-                    "Me tornar um desenvolvedor front-end com foco em Angular"
-                ],
-                "academicos" : [
-                    "Concluir a respectiva formação",
-                    "Oportunidades de pós-graduação"
-                ],
-                "pessoais" : [
-                    "Investir mais dinheiro",
-                    "Comprar um carro melhor",
-                    "Reduzir consumo de carne"
-                ]
-            },
-            "pontos_fortes" : [
-                "Ótima relação interpessoal",
-                "Comunicação com a squad",
-                "Maturidade intelectual",
-                "Comprometimento e responsabilidade"
-            ],
-            "pontos_fracos" : [
-                "Insegurança nos códigos",
-                "Participação na comunidade de tecnologia",
-                "Não focar em uma tecnologia/ferramenta"
-            ],
-            "proximos_passos" : [
-                "Desenvolver mais para pegar mais prática",
-                "Finalizar cursos de typescript e angular",
-                "Criar pdi em angular",
-                "Dar continuidade aos projetos pessoais",
-                "Focar nos estudos acadêmicos"
-            ]
+    self.objetivos = [
+        {
+            titulo : "No Itaú",
+            descricao : ["Atuar mais na parte de desenvolvimento nos projetos."]
+        },
+        {
+            titulo : "Em desenvolvimento",
+            descricao : ["Me tornar um desenvolvedor front-end com foco em aplicações web e mobile."]
+        },
+        {
+            titulo : "Acadêmicos",
+            descricao : ["Concluir a formação em bacharelado em ciência e tecnologia."]
         }
-    }
+    ]
+
+    self.swot = [ 
+        {
+            titulo : "Pontos Fortes",
+            descricao : ["Ótima relação interpessoal", "Maturidade intelectual", "Comprometimento e responsabilidade", "Comunicação e transparência na squad"]
+        },
+        {
+            titulo : "Pontos Fracos",
+            descricao : ["Participação na comunidade de tecnologia", "Comunicação ascendente", "Autopromoção"]
+        },
+        {
+            titulo : "Oportunidades",
+            descricao : ["Crescimento no Itaú", "Experiência em desenvolvimento"]
+        },
+        {
+            titulo : "Ameaças",
+            descricao : ["Indisciplina", "Inconstância"]
+        },
+    ]
+    self.proximosPassos = [
+        {
+            titulo : "Em 6 meses",
+            descricao : ["Finalizar cursos de TypeScript e Angular até 01/11/2020", "Criar PDI em angular até 01/11/2020"]
+        },
+        {
+            titulo : "Em 1 ano",
+            descricao : ["Concluir formação em Bacharel em Ciência e Tecnologia até Julho de 2021", ]
+        },
+        {
+            titulo : "Em 3 anos",
+            descricao : ["MBA em CyberSecurity ou Mobile Development na FIAP"]
+        }
+    ]
+    self.indefinido = [
+        "Desenvolver mais para pegar prática",
+        "Dar continuidade aos projetos pessoais"
+    ]
 });

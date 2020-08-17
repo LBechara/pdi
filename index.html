@@ -5,6 +5,9 @@
 		<title>PDI</title>
 		<link rel="stylesheet" href="./css/reset.css">
 		<link rel = "stylesheet" href="./css/main.css">
+		<link rel = "stylesheet" href="./css/objetivos.css">
+		<link rel = "stylesheet" href="./css/home.css">
+		<link rel = "stylesheet" href="./components/card/card.component.css">
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
 		<script src="./js/libs/angular.min.js"></script>
 		<script src="./js/libs/angular-animate.min.js"></script>
@@ -13,6 +16,8 @@
 		<script src="./js/libs/angular-route.min.js"></script>
 		<script src="./js/main.js"></script>
 		<script src="./js/controllers/main-controller.js"></script>
+		<script src="./components/card/card.module.js"></script>
+		<script src="./components/card/card.component.js"></script>
 	</head>
 
 	<body>
@@ -25,18 +30,16 @@
 					<ul>
 						<li><a href = "#!/home">Home</a></li>
 						<li><a href = "#!/objetivos">Objetivos</a></li>
-						<li><a href = "#!/pontosFortes">Pontos fortes</a></li>
-						<li><a href = "#!/pontosFracos">Pontos fracos</a></li>
+						<li><a href = "#!/perfil">Análise Swot</a></li>
 						<li><a href = "#!/proximosPassos">Próximos passos</a></li>
 					</ul>
 				</nav>
 			</div>
 		</header>
 
-		<main>
+		<main class="conteudo-principal">
 		<ng-view></ng-view>
 		</main>
-
 		<footer class="footer">
 			<div class="footer-block">
 				<div class="contato">
