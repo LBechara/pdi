@@ -14,6 +14,7 @@ main{
     font-size: 40px;
 	margin-top: 20px;
 	margin-left: 50px;
+	margin-bottom: 100px;
 }
 
 .titulo h1{
@@ -59,12 +60,19 @@ nav ul a:hover{
 }
 
 .container-section {
-    display: flex;
-    justify-content: start;
+	display: flex;
+	flex-flow: row wrap;
     width: 100%;
-    flex-direction: row;
-	margin-top: 300px;/* ???????????????????????????????????????? */
-	margin-left: 50px;
+}
+
+.card-perfil {
+	width: 50%;
+}
+.card-objetivos, .card-proximosPassos {
+	width: 33%;
+}
+.conteudo-principal {
+	margin-bottom: 55px;
 }
 
 .produtos{
@@ -86,7 +94,7 @@ nav ul a:hover{
 	left: 0;
   	bottom: 0;
 	display: flex;
-	border-top: #57575a solid 1px;
+	border-top: #57575a dotted 1px;
 	justify-content: space-between;
 	width: 100%;
 	padding: 10px 0px;

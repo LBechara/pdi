@@ -1,9 +1,4 @@
 <h1 class="titulo-conteudo">Objetivos</h1>
-<section class="container-section">
-    <div class="card-objetivos" ng-repeat="objetivo in objetivos">
-        <h2 class="card-objetivos-titulo">{{objetivo.titulo}}</h2>
-        <div class="descricao">
-            <p>{{objetivo.descricao}}</p>
-        </div>
-    </div>
-</section>
+<div class="container-section">
+    <card titulo="{{card.titulo}}" descricao="card.descricao" ng-repeat="card in objetivos" class="card-objetivos"></card>
+</div>

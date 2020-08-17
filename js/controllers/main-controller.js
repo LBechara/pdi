@@ -5,15 +5,15 @@ angular.module('pdi').controller('MainController', function($scope) {
     self.objetivos = [
         {
             titulo : "No Itaú",
-            descricao : "Atuar mais na parte de desenvolvimento nos projetos."
+            descricao : ["Atuar mais na parte de desenvolvimento nos projetos."]
         },
         {
             titulo : "Em desenvolvimento",
-            descricao : "Me tornar um desenvolvedor front-end com foco em aplicações web e mobile."
+            descricao : ["Me tornar um desenvolvedor front-end com foco em aplicações web e mobile."]
         },
         {
             titulo : "Acadêmicos",
-            descricao : "Concluir a formação em bacharelado em ciência e tecnologia."
+            descricao : ["Concluir a formação em bacharelado em ciência e tecnologia."]
         }
     ]
 
