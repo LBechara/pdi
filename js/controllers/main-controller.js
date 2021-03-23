@@ -38,7 +38,7 @@ angular.module('pdi').controller('MainController', function($scope) {
     self.proximosPassos = [
         {
             titulo : "Em 6 meses",
-            descricao : ["Criar PDI em Angular até 01/04/2021", "Finalizar Bacharel em ciência e tecnologia"]
+            descricao : ["Criar PDI em Angular até 10/04/2021", "Finalizar Bacharel em ciência e tecnologia"]
         },
         {
             titulo : "Em 1 ano",
@@ -48,9 +48,5 @@ angular.module('pdi').controller('MainController', function($scope) {
             titulo : "Em 3 anos",
             descricao : ["MBA em CyberSecurity ou Mobile Development na FIAP"]
         }
-    ]
-    self.indefinido = [
-        "Desenvolver mais para pegar prática",
-        "Dar continuidade aos projetos pessoais"
     ]
 });
