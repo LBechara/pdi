@@ -5,15 +5,15 @@ angular.module('pdi').controller('MainController', function($scope) {
     self.objetivos = [
         {
             titulo : "No Itaú",
-            descricao : ["Atuar mais na parte de desenvolvimento nos projetos."]
+            descricao : ["Crescimento horizontal", "Participação ativa em projetos Mobile"]
         },
         {
-            titulo : "Em desenvolvimento",
-            descricao : ["Me tornar um desenvolvedor front-end com foco em aplicações web e mobile."]
+            titulo : "Profissionais",
+            descricao : ["Me tornar um desenvolvedor Angular front-end com foco em aplicações web e mobile."]
         },
         {
             titulo : "Acadêmicos",
-            descricao : ["Concluir a formação em bacharelado em ciência e tecnologia."]
+            descricao : ["Concluir a formação em bacharelado em ciência e tecnologia.", "Iniciar Pós BI em Ciência da Computação"]
         }
     ]
 
@@ -24,7 +24,7 @@ angular.module('pdi').controller('MainController', function($scope) {
         },
         {
             titulo : "Pontos Fracos",
-            descricao : ["Participação na comunidade de tecnologia", "Comunicação ascendente", "Autopromoção"]
+            descricao : ["Comunicação ascendente", "Autopromoção"]
         },
         {
             titulo : "Oportunidades",
@@ -32,17 +32,17 @@ angular.module('pdi').controller('MainController', function($scope) {
         },
         {
             titulo : "Ameaças",
-            descricao : ["Indisciplina", "Inconstância"]
+            descricao : ["Inconstância"]
         },
     ]
     self.proximosPassos = [
         {
             titulo : "Em 6 meses",
-            descricao : ["Finalizar cursos de TypeScript e Angular até 01/11/2020", "Criar PDI em angular até 01/11/2020"]
+            descricao : ["Criar PDI em Angular até 01/04/2021", "Finalizar Bacharel em ciência e tecnologia"]
         },
         {
             titulo : "Em 1 ano",
-            descricao : ["Concluir formação em Bacharel em Ciência e Tecnologia até Julho de 2021", ]
+            descricao : ["Cursos de Soft Skill", "Me tornar analista pleno"]
         },
         {
             titulo : "Em 3 anos",
